@@ -8,7 +8,7 @@ namespace Calculator
         {
             bool isTerminated = false;
 
-            Console.WriteLine("Some change");
+            Console.WriteLine("Hi!");
 
             while (!isTerminated)
             {
