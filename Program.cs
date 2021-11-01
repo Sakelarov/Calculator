@@ -37,6 +37,11 @@ namespace Calculator
                     Console.WriteLine("Result: " + firstNum * secondNum);
                     isTerminated = true;
                 }
+                else if (operation == "**")
+                {
+                    Console.WriteLine("Result: " + Math.Pow(firstNum, secondNum));
+                    isTerminated = true;
+                }
                 else if (operation == "/")
                 {
                     Console.WriteLine("Result: " + firstNum / secondNum);
