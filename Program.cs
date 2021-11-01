@@ -8,6 +8,8 @@ namespace Calculator
         {
             bool isTerminated = false;
 
+            Console.WriteLine("Hello!");
+
             while (!isTerminated)
             {
                 Console.WriteLine("Input the first number:");
